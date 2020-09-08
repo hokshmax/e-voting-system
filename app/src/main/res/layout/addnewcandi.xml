@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edtcandies"
+        android:hint="@string/CandicateName"
+        android:drawableStart="@drawable/personicon"
+        android:drawablePadding="10dp"
+        android:background="@drawable/roundededt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtcandiesJob"
+        android:hint="@string/job"
+        android:background="@drawable/roundededt"
+        android:drawableStart="@drawable/workicon"
+        android:drawablePadding="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtcandiesParty"
+        android:hint="@string/party"
+        android:background="@drawable/roundededt"
+        android:drawableStart="@drawable/partyicon"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtcandiesPlan"
+        android:hint="plan"
+        android:background="@drawable/roundededt"
+        android:drawableStart="@drawable/planicon"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtcandiesDegree"
+        android:hint="@string/degree"
+        android:background="@drawable/roundededt"
+        android:drawableStart="@drawable/degreeicon"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/addnewCandiSpiner"
+        android:background="@drawable/roundededt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

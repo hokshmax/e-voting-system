@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Name" />
+
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/infoname"
+            android:drawableStart="@drawable/personicon"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/job" />
+        <TextView
+            android:id="@+id/infoJob"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/workicon"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/party" />
+        <TextView
+            android:id="@+id/infoParty"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/partyicon"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plan" />
+        <TextView
+            android:id="@+id/infoPlan"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/planicon"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="30sp"            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/degree" />
+        <TextView
+            android:id="@+id/infoDegree"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/degreeicon"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="30sp"            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/City" />
+        <TextView
+            android:id="@+id/infoCity"
+            android:textSize="20sp"
+            android:drawableStart="@drawable/locationicon"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/close"
+        android:background="@color/colorPrimary"
+        android:text="@string/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+
+

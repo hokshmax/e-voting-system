@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">votingsystem</string>
+    <string name="privateKey">العنوان الخاص بالبلوك تشيين</string>
+    <string name="completeSetuP">استكمال التسجيل</string>
+    <string name="title_activity_login">دخول</string>
+    <string name="prompt_email">البريد الالكتروني</string>
+    <string name="prompt_password">كلمة السر</string>
+    <string name="LogIn">دخول</string>
+    <string name="Name">الاسم</string>
+    <string name="City">المدينة</string>
+    <string name="candicates">المرشحيين</string>
+    <string name="addNEWCandicate">اضافة مرشح جديد</string>
+    <string name="startVoteing">بدا عملية التصويت</string>
+    <string name="vote">تصويت</string>
+    <string name="fulladdress">العنوان</string>
+    <string name="job">الوظيفة</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="crtaccount">انشاء حساب جديد</string>
+    <string name="party">الحزب</string>
+    <string name="degree">الموهل الدراسي</string>
+    <string name="CandicateName">اسم المرشح</string>
+    <string name="plan">الخطة</string>
+    <string name="cancel">الغاء</string>
+    <string name="loading">جاري التحميل........</string>
+    <string name="notpoliceorarmy">ليس ملتحق بالجيش او الشرطة</string>
+    <string name="BlockChainAddress">عنوان البلوك تششين</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">تسجيل دخول</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="createaccount"><u>انشاء حساب جديد ?</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUP">
+
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.core.widget.NestedScrollView
+
+            android:scrollbars="vertical"
+            android:fadeScrollbars="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+
+                    android:id="@+id/name"
+                    android:inputType="text"
+                    android:hint="@string/Name"
+                    android:background="@drawable/roundededt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/personicon"
+                    android:drawablePadding="10dp"/>
+
+
+                <EditText
+                    android:id="@+id/email"
+                    android:hint="@string/prompt_email"
+                    android:background="@drawable/roundededt"
+                    android:drawableStart="@drawable/emailicon"
+                    android:drawablePadding="10dp"
+                    android:inputType="textEmailAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/password"
+                    android:hint="@string/prompt_password"
+                    android:background="@drawable/roundededt"
+                    android:drawableStart="@drawable/lockicon"
+                    android:drawablePadding="10dp"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+                <EditText
+                    android:id="@+id/fulladdress"
+                    android:hint="@string/fulladdress"
+                    android:background="@drawable/roundededt"
+                    android:drawableStart="@drawable/locationicon"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/Job"
+                    android:hint="@string/job"
+                    android:background="@drawable/roundededt"
+                    android:drawableStart="@drawable/workicon"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/id"
+                    android:hint="CIN"
+                    android:background="@drawable/roundededt"
+                    android:drawableStart="@drawable/idicon"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/phone"
+                    android:hint="@string/phone"
+                    android:background="@drawable/roundededt"
+                    android:drawableStart="@drawable/phoneicon"
+                    android:drawablePadding="10dp"
+                    android:inputType="phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Spinner
+                    android:id="@+id/city"
+                    android:hint="@string/City"
+
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox
+                    android:id="@+id/age"
+                    android:hint="+18"
+
+                    android:textColorHint="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <CheckBox
+                    android:id="@+id/notpolive"
+                    android:hint="@string/notpoliceorarmy"
+                    android:textColorHint="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:text="@string/crtaccount"
+
+                    android:id="@+id/createaccount"
+                    android:background="@android:color/holo_blue_bright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

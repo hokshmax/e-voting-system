@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">système de vote</string>
+    <string name="title_activity_login">se connecter</string>
+    <string name="prompt_email">Email</string>
+    <string name="privateKey">Clé privée</string>
+    <string name="completeSetuP">configuration complète</string>
+    <string name="LogIn">s identifier</string>
+    <string name="Name"> Nom</string>
+    <string name="City">Ville</string>
+    <string name="BlockChainAddress">Adresse BlockChain</string>
+
+    <string name="candicates">Candidats</string>
+    <string name="addNEWCandicate">AAjouter un nouveau candidat</string>
+    <string name="startVoteing">commencer à voter</string>
+    <string name="vote">voter</string>
+    <string name="fulladdress">adresse complète</string>
+    <string name="job">Emploi</string>
+    <string name="phone">téléphone</string>
+    <string name="notpoliceorarmy">pas la police ou l armée</string>
+    <string name="crtaccount">Créer un nouveau compte</string>
+    <string name="party">fête</string>
+    <string name="degree">Diplômes universitaires</string>
+    <string name="CandicateName">nom du candidat</string>
+    <string name="plan">plan</string>
+    <string name="cancel">Annuler</string>
+    <string name="loading">Chargement......</string>
+
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Connexion ou Inscription</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="createaccount"><u>créer un nouveau compte ?</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

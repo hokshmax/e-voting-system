@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">votingsystem</string>
+    <string name="privateKey">Private Key</string>
+    <string name="completeSetuP">complete SetuP</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="LogIn">Log In</string>
+    <string name="Name">Name</string>
+    <string name="City">City</string>
+    <string name="candicates">candicates</string>
+    <string name="addNEWCandicate">Add New Candicate</string>
+    <string name="startVoteing">start Voteing</string>
+    <string name="vote">vote</string>
+    <string name="fulladdress">full address</string>
+    <string name="job">Job</string>
+    <string name="phone">phone</string>
+    <string name="crtaccount">Create New  Account</string>
+    <string name="party">party</string>
+    <string name="degree">degree</string>
+    <string name="CandicateName">Candicate Name</string>
+<string name="plan">plan</string>
+    <string name="cancel">cancel</string>
+    <string name="loading">Loading........</string>
+    <string name="notpoliceorarmy">Not Police Or Army</string>
+    <string name="BlockChainAddress">BlockChain Address</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="createaccount"><u>create New Account ?</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="ltr"
+    tools:context=".MainActivity">
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_above="@+id/candivote"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+
+        android:text="@string/Name"
+         android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/City"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txtCity"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="CIN"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@android:color/black"
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        android:text="@string/BlockChainAddress"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:id="@+id/walletadress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="id"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/candicates"
+            android:layout_weight="4"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="@string/City"
+            android:layout_weight="4"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="votes"
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/voterRec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+    <Spinner
+        android:id="@+id/candivote"
+        android:layout_above="@+id/addCandi"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/addCandi"
+        android:layout_above="@id/proccesVoting"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/addNEWCandicate"
+        />
+
+    <Button
+        android:id="@+id/proccesVoting"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/button"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/startVoteing"
+        />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/vote"
+        />
+
+
+
+</RelativeLayout>
